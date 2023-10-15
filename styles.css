@@ -1,0 +1,73 @@
+section {
+    width: 1440px;
+    padding-left: 120px;
+    border: 2px #28292D solid;
+}
+.coca {
+    height: 910px;
+}
+.magnificent {
+    height: 942px;
+    background-color: #28292D;
+}
+.interior {
+    height: 1032px;
+}
+.best_place {
+    height: 776px;
+}
+.workflow {
+    height: 948px;
+}
+.customer {
+    height: 772px;
+    background-color: #28292D;
+}
+header {
+    font-size: 16px;
+    font-family: intrr;
+    padding-right: 121px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.nav_right{
+    margin-left: auto;
+    margin-right: 0px;
+}
+.nav_right p {
+    display: inline-block;
+    padding-right: 32px;
+}
+.logo_coca {
+    height: 66px;
+    width: 140px;
+}
+nav {
+    margin-left: 70px;
+    width: 289px;
+    height: 24px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+a {
+    text-decoration: none;
+    color: #878787;
+}
+button {
+    padding: 16px 32px 16px 32px;
+    border-radius: 100px;
+    background-color: #1D1D21;
+    line-height: 24px;
+    color: white;
+}
+.white {
+    background-color: #FFFFFF;
+    color:#1D1D21;
+}
+.white img{
+    top: 4px;
+    position: relative;
+    padding-right: 2px;
+}
+
