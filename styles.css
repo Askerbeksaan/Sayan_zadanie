@@ -1,3 +1,7 @@
+body {
+    font-size: 16px;
+    font-family: intrr;
+}
 section {
     width: 1440px;
     padding-left: 120px;
@@ -7,6 +11,7 @@ section {
     height: 910px;
 }
 .magnificent {
+    padding-top: 130px;
     height: 942px;
     background-color: #28292D;
 }
@@ -24,8 +29,6 @@ section {
     background-color: #28292D;
 }
 header {
-    font-size: 16px;
-    font-family: intrr;
     padding-right: 121px;
     display: flex;
     flex-direction: row;
@@ -61,7 +64,8 @@ button {
     line-height: 24px;
     color: white;
 }
-.white {
+.white_btn {
+    margin-left: 10px;
     background-color: #FFFFFF;
     color:#1D1D21;
 }
@@ -70,4 +74,71 @@ button {
     position: relative;
     padding-right: 2px;
 }
+.coca main p:first-child{
+    border-radius: 100px;
+    margin-top: 70px;
+    padding: 8px 12px;
+    border: 1px black solid;
+    display: inline-block;
+}
+.coca main h1{
+    font-size: 140px;
+    display: inline-block;
+    width: 764px;
+    line-height: 110%;
+    margin-top: 24px;
+    margin-bottom: 0px;
+}
+.coca_p{
+    font-size: 16px;
+    width: 450px;
+    color: #878787;
+    margin-top: 24px;
+    margin-bottom: 0px;
+    line-height: 150%;
+
+}
+.coca main div{
+margin-top: 48PX;
+}
+.magnificent .txt{
+    padding-top: 24px;
+    width: 510px;
+    color: #FFFFFF;
+    display: inline-block;
+}
+.magnificent .txt h1{
+    font-size: 72px;
+    text-transform: uppercase;
+    margin: 0px;
+    padding: 0px;
+}
+.magnificent .txt .osnovnoy_p{
+    margin-top: 24px;
+}
+.magnificent .txt img{
+    padding: 22px;
+    border: 1px solid #FFFFFF;
+    border-radius: 100px;
+    position: relative;
+    top: 20px;
+    margin-right: 36px;
+}
+.like,.kub{
+    margin-top: 60px;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: start;
+}
+.magnificent .img{
+    height: 700px;
+    width: auto;
+    display: inline-flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
 
