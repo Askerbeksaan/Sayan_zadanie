@@ -5,28 +5,51 @@ body {
 section {
     width: 1440px;
     padding-left: 120px;
-    border: 2px #28292D solid;
 }
 .coca {
     height: 910px;
+    box-sizing: border-box;
 }
 .magnificent {
     padding-top: 130px;
     height: 942px;
     background-color: #28292D;
+    box-sizing: border-box;
 }
 .interior {
     height: 1032px;
+    padding: 120px;
+    display: flex;
+    align-items: start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
 }
 .best_place {
     height: 776px;
+    padding: 80px 120px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-between;
 }
 .workflow {
+    padding-top: 133px;
+    padding-bottom: 145px;
     height: 948px;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
 }
 .customer {
     height: 772px;
     background-color: #28292D;
+    box-sizing: border-box;
+    padding-top: 120px;
+    padding-right: 110px;
+    color: #FFFFFF;
 }
 header {
     padding-right: 121px;
@@ -131,14 +154,144 @@ margin-top: 48PX;
     align-items: start;
 }
 .magnificent .img{
-    height: 700px;
-    width: auto;
+    height: 710px;
+    width: 650px;
     display: inline-flex;
     align-items: flex-start;
-    justify-content: flex-start;
     flex-direction: column;
     flex-wrap: wrap;
 }
-
-
-
+.interior .int_txt{
+    width: 510px;
+    height: 252px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.interior .int_txt h1{
+    font-size: 64px;
+}
+.interior .int_txt p{
+    font-size: 16px;
+    color: #878787;
+}
+.interior img{
+    border-radius: 16px;
+}
+.best_place h1{
+    font-size: 64px;
+    text-transform: uppercase;
+}
+.best_place .plasce_txt{
+    margin-left: 60px;
+}
+.workflow .work_h1{
+    font-size: 58px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 678px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.workflow .third_img{
+    position: absolute;
+    right: 0px;
+    top: 154px;
+}
+.workflow .second_img{
+    position: relative;
+    left:673px ;
+}
+.workflow .work_div{
+    display: inline-flex;
+    flex-direction: row;
+}
+.div-01, .div-02, .div-03{
+    width: 440px;
+    margin-right: 160px;
+}
+.workflow .div_h1{
+    font-size: 80px;
+    color: #E9ECF2;
+    margin-top: 42px;
+    margin-bottom: 20px;
+}
+.workflow .div_h2{
+    margin-top: 0px;
+    margin-bottom: 16px;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.customer_head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.customer_head h1{
+    margin: 0px;
+    width: 360px;
+    font-size: 48px;
+    text-transform: uppercase;
+}
+.customer_head p{
+    width: 330px;
+    font-size: 16px;
+}
+.customer .customer_main{
+    margin-top: 76px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    height: 260px;
+}
+.customer_main h1{
+    font-size: 60px;
+    margin: 0px;
+}
+.customer_main h3{
+    margin: 0px;
+    font-size: 18px;
+    text-transform: uppercase;
+} 
+.customer_main p{
+    width: 420px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+.proff{
+    margin-top: 24px;
+}
+.customer .proff img{
+    position: absolute;
+}
+.proff h5{
+    margin-left: 80px;
+    margin-top: 0px;
+    margin-bottom: 4px;
+}
+footer{
+    padding: 100px 120px 100px 120px;
+    box-sizing: border-box;
+}
+.foot_head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.foot_button{
+    display: flex;
+    align-items: center;
+}
+.foot_main{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.foot_last{
+    display: flex;
+    align-items: start;
+    justify-content:space-between ;
+}
