@@ -15,6 +15,7 @@ section {
     height: 942px;
     background-color: #28292D;
     box-sizing: border-box;
+    overflow: hidden;
 }
 .interior {
     height: 1032px;
@@ -147,6 +148,13 @@ margin-top: 48PX;
     top: 20px;
     margin-right: 36px;
 }
+.magnificent .img{
+    margin-left: 100px;
+    display: inline-flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 20px;
+}
 .like,.kub{
     margin-top: 60px;
     margin-bottom: 0px;
@@ -275,6 +283,7 @@ margin-top: 48PX;
 footer{
     padding: 100px 120px 100px 120px;
     box-sizing: border-box;
+    width: 1440px;
 }
 .foot_head{
     display: flex;
@@ -285,13 +294,33 @@ footer{
     display: flex;
     align-items: center;
 }
+.foot_button p{
+    margin-right: 30px;
+}
 .foot_main{
     margin-top: 70px;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 80px;
+}
+.foot_main h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    max-width: 300px;
 }
 .foot_last{
     display: flex;
     align-items: start;
     justify-content:space-between ;
+}
+footer form{
+    display: inline-flex;
+}
+footer form input{
+    border-style: none;
+    border-bottom: solid #878787 1px;
+    width: 280px;
+}
+footer button{
+    border-radius: 8px;
 }
